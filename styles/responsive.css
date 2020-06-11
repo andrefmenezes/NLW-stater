@@ -1,0 +1,31 @@
+@media (max-width:900px){
+   div#page-home{
+background:url('');
+    }
+
+   div#page-home .content{
+        align-items: center;
+        text-align:center;
+    }
+    div#page-home header a{
+   position: absolute;
+   bottom:0;
+   left:50%;
+   transform: translateX(-50%);
+   
+    }
+    div#page-home main{
+        align-items: center;
+    }
+}
+@media(min-width:1700px){
+    div#page-home{
+        background-position:40vw;
+    }
+
+}
+@media(max-height:760px){
+    div#page-home{
+        background-position-y:200px;
+    }
+}
